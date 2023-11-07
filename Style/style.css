@@ -1,0 +1,46 @@
+h3, h4 {
+    color :#ff3300;
+    font-size: 25px;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+body{
+    background-color: #06b0ff;
+}
+
+#gta {
+    width: 20%;
+}
+
+#coordonnees {
+    width: 50vw;
+    background-color: #8a2be2;
+    margin: 20px;
+    border: #000 3px solid;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 10px ;
+    transition: transform 10s;
+}
+
+#coordonnees:hover {
+    background-color: #0000ff;
+    transform : translate3d(15px, 10px, 0);
+    transition: transform 5s;
+}
+
+#loisir {
+    width: 50vw;
+    background-color: #8a2be2;
+    border: #000 3px solid;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 30px 30px 30px 30px;
+
+}
