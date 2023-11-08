@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "shanghai";
+    src: url("./shanghai.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /*Positionnement des blocks h2 et h2 dans le header*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*taille et apparence de base du header*/
+    width: 100vw;
+    height: 25vh;
+    background-color: #483d8b;
+    color: #dcdcdc;
+    font-family: "shanghai";
+    /*image de fond du header*/
+    background-image: url("../assets/image\ de\ fond.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+header>h1 {
+    font-size: 7vh;
+}
+
+header>h2 {
+    font-size: 5vh;
+}
+
+nav{
+    /*taille et apparence de base du nav(menu)*/
+    height: 75vh;
+    width: 20vw;
+    background-color: #483d8b;
+    color: #dcdcdc;
+    background-image: url("../assets/image\ de\ fond.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*reglage de la disposition des bouton*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bouton{
+    /*formatage de texte*/
+    color: #dcdcdc;
+    text-decoration: none;
+    font-family: "shanghai";
+    font-size: 2vh;
+    display: block;
+    background-color: #d2691e;
+    border-radius: 0.5vh;
+    padding: 0.5vh;
+    width: 15vw;
+    text-align: center;
+    transition: box-shadow 500ms;
+}
+
+.bouton:hover{
+    /*color: #483d8b;
+    background-color: #dcdcdc;*/
+    box-shadow: #dcdcdc 5px 5px 10px 0; 
+}
