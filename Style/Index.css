@@ -37,4 +37,29 @@ article>ul {
 
 .espace {
     height: 40vh;
+    width: 40%;
+    background-image: url(../assets/mw2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    color: #f5f5dc;
+    padding-right:  5vw;
+}
+
+.espace>h2 {
+    font-size: 4em;
+}
+
+.espace>h3 {
+    font-size: 3.5em;
+}
+
+iframe{
+    width: 40%;
 }
