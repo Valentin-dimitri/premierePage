@@ -1,0 +1,27 @@
+main{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #f5f5dc;
+    padding-top: 5vh;
+}
+
+article{
+    width: 70%;
+    background-color: blue;
+    box-shadow: black 5px 5px 10px 0;
+    padding: 10px;
+    margin-bottom: 2.5vh;
+
+}
+
+article>h2 {
+    color: #00ff1e;
+    font-size: 2em;
+    margin-bottom: 1.5vh;
+} 
+
+article>p, article>li{
+    font-size: 1.2em;
+}

@@ -8,7 +8,7 @@ main{
 .game-container {
     width: 80%;
     background-color: #a52a2a;
-    box-shadow: black 5px 5px 10px 0;
+    box-shadow: #000000 5px 5px 10px 0;
     margin: 3vmin 0;
     padding: 2vmin;
     text-align: center;
@@ -24,4 +24,15 @@ main{
     border: #a52a2a solid 2px;
     border-radius: 5px;
     
+}
+
+button {
+    width: 10%;
+    background-color:  #a52a2a;
+    box-shadow: #000000 5px 5px 5px 0;
+    margin: 1vmin 0;
+    padding: 1vmin;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 800;
 }

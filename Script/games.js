@@ -51,7 +51,7 @@ function fairNumber() {
     zone.appendChild(submitButton)
 
    function compareNumber() {
-    console.log("check")
+
     count++
 
     let userNumber = parseInt(playerInput.value)
@@ -68,7 +68,7 @@ function fairNumber() {
     }
     
     let newMessage = document.createElement('p')
-    zone.innerHTML += message
+    newMessage.innerHTML += message
     zone.appendChild(newMessage)
 
    }

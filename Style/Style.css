@@ -48,6 +48,7 @@ nav{
     /*taille et apparence de base du nav(menu)*/
     height: 75vh;
     width: 20vw;
+    left : -20vw;
     background-color: #483d8b;
     color: #dcdcdc;
     background-image: url("../assets/image\ de\ fond.jpg") ;
@@ -58,6 +59,8 @@ nav{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    transition : transform 10s
+
 }
 
 .bouton{
