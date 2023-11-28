@@ -10,6 +10,9 @@ function menuChange() {
         case '1':
             fairNumber ()
             break
+        case '2':
+            ticTacDoe()
+            break
         default :
             reset()
             break
@@ -77,6 +80,41 @@ function fairNumber() {
 
 }
 
+function ticTacDoe() {
+    reset()
+    console.log('jeu de morpion')
+    
+    let squares = []
+    let infoPanel = document.createElement('div')
+    infoPanel.classList.add('infoPanel')
+
+    let grid = document.createElement('div')
+    grid.classList.add('grid')
+
+    zone.appendChild(infoPanel)
+    zone.appendChild(grid)
+    zone.classList.add('ttdZone')
+
+    /*creation de la grille*/
+
+    for(let i=0; i<9; i++) {
+        let square = document.createElement('div')
+        square.classList.add('square')
+        grid.appendChild(square)
+        squares.push(square)
+
+    }
+
+    for(let i=0; i<9; i++) {
+        squares[i].addEventListener('click',squareClick.bind(squares[i]))
+    }
+
+    console.log(squares)
+
+    function squareClick() {
+        this.style.backgroundImage = 'url("../assets/rond.png")'
+    }
+}
 /*on configure les évènements*/
 
 menu.addEventListener("change", menuChange)
