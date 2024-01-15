@@ -1,0 +1,62 @@
+main{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #808080;
+    padding-top: 5vh;
+}
+
+article{
+    width: 50%;
+    background-color: #deb887;
+    box-shadow: #f5f5dc 5px 5px 10px 0;
+    padding: 10px;
+    margin-bottom: 2.5vh;
+
+}
+
+article>h2 {
+    color: #00ffff;
+    font-size: 2em;
+    margin-bottom: 1.5vh;
+}
+
+article>h3 {
+    color: #00ffff;
+    font-size: 1.5em;
+    margin-bottom: 1.5vh;
+}
+
+article>p, article>li{
+    font-size: 1.2em;
+}
+
+.espace {
+    height: 40vh;
+    width: 40%;
+    background-image: url(../assets/tigreblanc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    color: #f5f5dc;
+    padding-right:  5vw;
+}
+
+.espace>h2 {
+    font-size: 4em;
+}
+
+.espace>h3 {
+    font-size: 3.5em;
+}
+
+iframe{
+    width: 40%;
+}

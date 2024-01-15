@@ -9,19 +9,28 @@ main{
 
 article{
     width: 70%;
-    background-color: blue;
+    background-color: beige;
     box-shadow: black 5px 5px 10px 0;
     padding: 10px;
     margin-bottom: 2.5vh;
+    height: 25vh;
 
 }
 
+article>h1 {
+    color: blueviolet;
+    font-size: 2em;
+    margin-bottom: 1.5vh;
+}
+
 article>h2 {
-    color: #00ff1e;
+    color: royalblue;
     font-size: 2em;
     margin-bottom: 1.5vh;
 } 
 
 article>p, article>li{
     font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
