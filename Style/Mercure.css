@@ -3,7 +3,7 @@ main{
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    background-color: #808080;
+    background-color: beige;
     padding-top: 5vh;
 }
 
@@ -17,7 +17,7 @@ article{
 }
 
 article>h2 {
-    color: #00ffff;
+    color: bisque;
     font-size: 2em;
     margin-bottom: 1.5vh;
 }

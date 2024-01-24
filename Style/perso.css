@@ -18,13 +18,13 @@ article{
 }
 
 article>h1 {
-    color: blueviolet;
+    color: gray;
     font-size: 2em;
     margin-bottom: 1.5vh;
 }
 
 article>h2 {
-    color: royalblue;
+    color: gray;
     font-size: 2em;
     margin-bottom: 1.5vh;
 } 
